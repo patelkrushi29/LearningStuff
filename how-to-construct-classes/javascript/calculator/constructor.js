@@ -47,7 +47,7 @@ function power(operand) {
   throw new Error("Oi! Krushi! Write this code! :D");
 }
  
-funtion clear(operand) {
+function clear(operand) {
 
   var classScope = this;
   classScope.value = 0; 
