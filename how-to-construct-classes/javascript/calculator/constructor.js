@@ -16,7 +16,10 @@ Calculator.prototype.clear = clear;
 function add(operand) {
 
   var classScope = this;
-  throw new Error("Oi! Krushi! Write this code! :D");
+  
+  classScope.value += operand;
+  return classScope.value;
+  //throw new Error("Oi! Krushi! Write this code! :D");
 }
  
 function subtract(operand) {
@@ -30,7 +33,10 @@ function subtract(operand) {
 function multiply(operand) {
 
   var classScope = this;
-  throw new Error("Oi! Krushi! Write this code! :D");
+  
+  classScope.value *= operand;
+  return classScope.value;
+  //throw new Error("Oi! Krushi! Write this code! :D");
 }
  
 function divide(operand) {
@@ -44,7 +50,10 @@ function divide(operand) {
 function power(operand) {
 
   var classScope = this;
-  throw new Error("Oi! Krushi! Write this code! :D");
+  
+  classScope.value = pow(operand,operand);
+  return classScope.value;
+  //throw new Error("Oi! Krushi! Write this code! :D");
 }
  
 function clear(operand) {
