@@ -7,11 +7,13 @@ class Calculator {
   }
 
   public double add(double operand) throws Exception {
-    throw new Exception("Oi! Krushi! Write this code! :D");
+    this.value += operand;
+    return this.value;
   }
 
   public double add(int operand) throws Exception {
-    throw new Exception("Oi! Krushi! Write this code! :D");
+    this.value += operand;
+    return this.value;
   }
 
   public double subtract(double operand) {
@@ -25,11 +27,13 @@ class Calculator {
   }
 
   public double multiply(double operand) throws Exception {
-    throw new Exception("Oi! Krushi! Write this code! :D");
+    this.value *= operand;
+    return this.value;
   }
 
   public double multiply(int operand) throws Exception {
-    throw new Exception("Oi! Krushi! Write this code! :D");
+    this.value *= operand;
+    return this.value;
   }
 
   public double divide(double operand) throws Exception {
@@ -38,15 +42,18 @@ class Calculator {
   }
 
   public double divide(int operand) throws Exception {
-    throw new Exception("Oi! Krushi! Write this code! :D");
+    this.value /= operand;
+    return this.value;
   }
 
   public double power(double operand) throws Exception {
-    throw new Exception("Oi! Krushi! Write this code! :D");
+    this.value = math.pow(double operand, double operand);
+    return this.value;
   }
 
   public double power(int operand) throws Exception {
-    throw new Exception("Oi! Krushi! Write this code! :D");
+    this.value = math.pow(int operand, int operand);
+    return this.value;
   }
 
   public void clear() {
